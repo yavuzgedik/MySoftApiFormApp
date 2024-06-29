@@ -47,6 +47,7 @@ namespace MySoftApiFormApp
             request.AddParameter("username", "{username}");
             request.AddParameter("password", "{password}");
             request.AddParameter("grant_type", "password");
+
             IRestResponse response = client.Execute(request);
 
             var tokenResponse = JsonConvert.DeserializeObject<TokenResponse>(response.Content);

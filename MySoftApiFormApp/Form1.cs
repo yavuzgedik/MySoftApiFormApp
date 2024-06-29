@@ -102,8 +102,8 @@ namespace MySoftApiFormApp
                 {
                     new Note { note = "https://mysoft.com.tr" }
                 },
-                pkAlias = "urn:mail:defaultpk@ornekadres.com",
-                gbAlias = "urn:mail:defaultgb@ornekadres.com",
+                pkAlias = "urn:mail:defaultpk@mysoft.com",
+                gbAlias = "urn:mail:defaultgb@mysoft.com",
                 deliveryTermCode = "string",
                 transportModeCode = "string",
                 deliveryCitySubdivisionName = "string",
